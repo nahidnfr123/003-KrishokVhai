@@ -1,0 +1,15 @@
+# Laravel
+    Fortify
+    Sanctum
+    Socialite
+    tailwind-css
+    pusher
+
+# VueJs
+    vue
+    vue-router
+    vuex
+    vue-progressbar
+    dayjs
+    vform
+    vue2-editor

@@ -1,0 +1,51 @@
+# User Authentication   ---(Done)
+    -> Login ---
+    -> Register ---
+    -> Email verification ---
+    -> Reset password ---
+    -> Social auth ---
+    -> Password update ---
+    -> Profile update ---
+
+# User management   ---(Done)
+    -> Display users ---
+    -> Search users ---
+    -> View, Delete, Destroy, Retrieve, Block, Unblock users ---
+
+# Weather Update    ---(Done)
+
+# Inventory
+    -> Manage product category ---
+    -> Manage products ---
+    -> Add to cart ---
+    -> Checkout ---
+    -> Payment system
+    -> Manage orders ---
+    -> Manage shipments
+
+# Manage post
+    -> CRUD posts ---
+    -> Search post ---
+    -> Comment system
+    -> Review system
+
+# Chat system
+
+# Contact Us
+
+# FAQ
+
+# Task Management
+    -> Create and manage workers
+    -> Manage task
+    -> Assign task
+
+# Generate sales report
+    -> Generate annual and seasonal, monthly or yearly sales graph
+    -> Generate sales report for a year or a seasons
+
+# Crop prediction location based
+
+# Plant leaf disease detection system
+
+----------------------------------------------------------------------------------------

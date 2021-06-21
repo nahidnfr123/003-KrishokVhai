@@ -1,0 +1,9 @@
+Project 04
+Project name: KrishiVhai
+Krishok-vhai is a platform dedicated to farmers. Using this system farmers will be able to sell their products, gain knowledge about modern farming practices, and will be able to visualize real-time weather data.
+
+
+Technologies: Html-CSS-Bootstrap-VueJs2-Laravel8-MySQL.
+
+Started Date: 8-03-2021
+End Date: ~

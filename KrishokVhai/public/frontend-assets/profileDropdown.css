@@ -1,0 +1,257 @@
+
+/* - 05.0 Top Bar */
+.TopBar {
+    height: 40px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    line-height: 38px;
+    /*if set to 40 problem in navigation bar*/
+    background-color: #dee;
+}
+
+.TopBar .Contact {
+    font-size: 12px;
+    float: left;
+    color: #666;
+}
+
+.TopBar .Contact span {
+    margin: 0 2px;
+}
+
+.TopBar .Log_Option {
+    float: right;
+}
+
+.TopBar .Log_Option a {
+    background-color: dodgerblue;
+    padding: 6px 10px 6px 0;
+    margin: 0 5px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 400ms;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.TopBar .Log_Option a:hover {
+    background-color: #1975C5;
+    box-shadow: 0 0 6px rgba(20, 20, 20, .6);
+}
+
+.TopBar .Log_Option a i.fas {
+    height: 31px;
+    width: 31px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 6px;
+    border: 2px solid white;
+    transition: 400ms;
+    font-size: 14px;
+}
+
+.TopBar .Log_Option a:hover i.fas {
+    width: 40px;
+    color: dodgerblue;
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px solid dodgerblue;
+    box-shadow: 0 0 2px rgba(20, 20, 20, 1);
+}
+
+
+
+/*profile icon in top bar ...*/
+.TopBar_ProfileDiv {
+    float: right;
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+
+    position: relative;
+}
+
+.ProfileIconBox {
+    height: 36px;
+    width: auto;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 0 10px 0 0;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+    display: flex;
+    color: dodgerblue;
+    transition: all 400ms;
+}
+
+.ProfileIconBox:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+#Profile.clicked {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.ProfileIconBox img {
+    height: 32px;
+    width: 32px;
+    margin: 2px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 50%;
+    display: block;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+
+    border: 2px solid dodgerblue;
+
+    transition: all 400ms;
+}
+
+.ProfileIconBox > span {
+    display: block;
+    padding-left: 6px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+.TopBar_ProfileDiv #Profile_Options {
+    display: none;
+    width: 140px;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    z-index: 9999;
+    background-color: dodgerblue;
+    padding: 10px 0;
+    box-shadow: -2px 2px 6px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.TopBar_ProfileDiv #Profile_Options.show {
+    display: block;
+}
+
+.TopBar_ProfileDiv #Profile_Options ul {
+    list-style: none;
+}
+
+.TopBar_ProfileDiv #Profile_Options ul li {
+    line-height: 30px;
+    position: relative;
+}
+
+.TopBar_ProfileDiv #Profile_Options ul li a .Notification {
+    height: 20px;
+    width: auto;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 6px;
+    background-color: white;
+    color: coral;
+    font-size: 12px;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 10px;
+    padding: 0 2px;
+}
+
+.TopBar_ProfileDiv #Profile_Options ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 10px;
+    font-weight: 600;
+    transition: all 400ms;
+}
+
+.TopBar_ProfileDiv #Profile_Options ul li a i {
+    margin-right: 6px;
+}
+
+.TopBar_ProfileDiv #Profile_Options ul li a:hover {
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, .8);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, .2);
+}
+
+.Arrow .fa-sort-up {
+    position: absolute;
+    top: -7px;
+    right: calc(50% - 10px);
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:600px) {
+    .TopBar {
+        height: 80px;
+    }
+
+    .TopBar .Contact {
+        float: none;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+    }
+
+    .TopBar .Log_Option {
+        float: none;
+        text-align: center;
+    }
+
+    .TopBar_ProfileDiv {
+        width: 180px;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .TopBar .Contact {
+        float: none;
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .TopBar .Contact > span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: 20s marquee linear infinite;
+    }
+
+    @keyframes marquee {
+        from {
+            left: 100%;
+        }
+
+        to {
+            left: -100%;
+        }
+    }
+}
+
+
+a:hover{
+    transform: translate(none);
+    font-size: 14px;
+    color: dodgerblue;
+}
+a{
+    transform: translate(none);
+    font-size: 14px;
+    transition: all ease-in-out 400ms;
+}
