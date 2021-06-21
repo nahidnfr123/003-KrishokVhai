@@ -215,7 +215,7 @@
                                             </a>
                                             <template v-if="!roles || !roles.includes('farmer')">
                                                 <a href="#" title="Add To Cart"
-                                                   v-if="(product.total_stock == '0' || product.total_stock == 0 || !product.total_stock) && canAddToCart"
+                                                   v-if="product.total_stock && canAddToCart && (product.total_stock != '0' || product.total_stock != 0)"
                                                    @click.stop.prevent="addToCart(product)">
                                                     <i class="icon_cart_alt"></i>
                                                 </a>
