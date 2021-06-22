@@ -4,28 +4,40 @@ import store from './store';
 
 Vue.use(VueRouter);
 
-import NotFound from './views/404';
-import Index from './views/Index';
+// import NotFound from './views/404';
+const NotFound = () => import(/* webpackChunkName: "NotFound" */ "./views/404.vue");
+// import Index from './views/Index';
+const Index = () => import(/* webpackChunkName: "Index" */ "./views/Index.vue");
+//import Weather from './views/Weather';
+const Weather = () => import(/* webpackChunkName: "Weather" */ "./views/Weather.vue");
 import Test from './views/Test';
-import Weather from './views/Weather';
 
 ///////////////// ------------------------- \\\\\\\\\\\\\\\\\\\\\\\
 
-import Register from './views/auth/Register';
-import Login from './views/auth/Login';
-import SocialLogin from './views/auth/SocialLogin';
-import EmailVerification from './views/auth/EmailVerification';
-import ForgotPassword from './views/auth/ForgotPassword';
-import ResetPassword from './views/auth/ResetPassword';
+// import Register from './views/auth/Register';
+const Register = () => import(/* webpackChunkName: "Register" */ "./views/auth/Register.vue");
+// import Login from './views/auth/Login';
+const Login = () => import(/* webpackChunkName: "Login" */ "./views/auth/Login.vue");
+// import SocialLogin from './views/auth/SocialLogin';
+const SocialLogin = () => import(/* webpackChunkName: "SocialLogin" */ "./views/auth/SocialLogin.vue");
+// import EmailVerification from './views/auth/EmailVerification';
+const EmailVerification = () => import(/* webpackChunkName: "EmailVerification" */ "./views/auth/EmailVerification.vue");
+// import ForgotPassword from './views/auth/ForgotPassword';
+const ForgotPassword = () => import(/* webpackChunkName: "ForgotPassword" */ "./views/auth/ForgotPassword.vue");
+// import ResetPassword from './views/auth/ResetPassword';
+const ResetPassword = () => import(/* webpackChunkName: "ResetPassword" */ "./views/auth/ResetPassword.vue");
 
 ///////////////// ------------------------- \\\\\\\\\\\\\\\\\\\\\\\
 
 import Profile from './views/dashboard/Users/Profile';
-import Survey from "./views/Survey";
+// import Survey from "./views/Survey";
+const Survey = () => import(/* webpackChunkName: "ResetPassword" */ "./views/Survey.vue");
 
 /////////////// -------------------  Dashboard .......
 import DashboardContainer from './views/dashboard/DashboardContainer';
+//const DashboardContainer = () => import(/* webpackChunkName: "DashboardContainer" */ "./views/dashboard/DashboardContainer.vue");
 import DashboardIndex from './views/dashboard';
+//const DashboardIndex = () => import(/* webpackChunkName: "DashboardIndex" */ "./views/dashboard/Index.vue");
 import Activities from './views/dashboard/Activities';
 import Posts from './views/dashboard/Posts/ManagePost';
 import ManagePostCategory from './views/dashboard/Posts/ManagePostCategory';
@@ -39,18 +51,28 @@ import ViewProfile from "./views/dashboard/Users/ViewProfile";
 //import Treeview from "./views/unused/treeview";
 
 import ReadPost from "./views/dashboard/Posts/ReadPost";
-import Articles from "./views/posts/Articles";
-import News from "./views/posts/News";
-import ReadPostFrontEnd from "./views/posts/ReadPost";
-import Blogs from "./views/posts/Blogs";
-import Market from "./views/market/Market";
-import CheckOut from "./views/market/CheckOut";
-import OrderSummary from "./views/market/OrderSummary";
+// import Articles from "./views/posts/Articles";
+const Articles = () => import(/* webpackChunkName: "Articles" */ "./views/posts/Articles.vue");
+// import News from "./views/posts/News";
+const News = () => import(/* webpackChunkName: "News" */ "./views/posts/News.vue");
+// import ReadPostFrontEnd from "./views/posts/ReadPost";
+const ReadPostFrontEnd = () => import(/* webpackChunkName: "ReadPostFrontEnd" */ "./views/posts/ReadPost.vue");
+// import Blogs from "./views/posts/Blogs";
+const Blogs = () => import(/* webpackChunkName: "Blogs" */ "./views/posts/Blogs.vue");
+// import Market from "./views/Market/Market";
+const Market = () => import(/* webpackChunkName: "Market" */ "./views/market/Market.vue");
+// import CheckOut from "./views/market/CheckOut";
+const CheckOut = () => import(/* webpackChunkName: "CheckOut" */ "./views/market/CheckOut.vue");
+// import OrderSummary from "./views/market/OrderSummary";
+const OrderSummary = () => import(/* webpackChunkName: "OrderSummary" */ "./views/market/OrderSummary.vue");
 import Chat from "./views/dashboard/chat/Chat";
 import FindPeople from "./views/dashboard/Users/FindPeople";
-import AccountBlocked from "./views/AccountBlocked";
-import ContactUs from "./views/ContactUs";
-import About from "./views/About";
+// import AccountBlocked from "./views/AccountBlocked";
+const AccountBlocked = () => import(/* webpackChunkName: "AccountBlocked" */ "./views/AccountBlocked.vue");
+// import ContactUs from "./views/ContactUs";
+const ContactUs = () => import(/* webpackChunkName: "ContactUs" */ "./views/ContactUs.vue");
+// import About from "./views/About";
+const About = () => import(/* webpackChunkName: "About" */ "./views/About.vue");
 import Todo from "./views/dashboard/todos/Todo";
 import TodoItem from "./views/dashboard/todos/TodoItem";
 import ContactUsMessages from "./views/dashboard/ContactUsMessages";

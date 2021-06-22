@@ -1,4 +1,23 @@
 {
-    "/dist/js/app.js": "/dist/js/app.js?id=8ab5ca8a77ee19be8464",
-    "/dist/css/app.css": "/dist/css/app.css?id=9a83c0b99ecb04ee68d2"
+    "/dist/js/app.js": "/dist/js/app.js?id=a46b217156268d2c3e25",
+    "/dist/css/app.css": "/dist/css/app.css?id=9a83c0b99ecb04ee68d2",
+    "/dist/js/About.js": "/dist/js/About.js?id=736048b75d4dfa1dc1d7",
+    "/dist/js/AccountBlocked.js": "/dist/js/AccountBlocked.js?id=bb628630478b90833dab",
+    "/dist/js/Articles.js": "/dist/js/Articles.js?id=966e716b83deeac28572",
+    "/dist/js/Blogs.js": "/dist/js/Blogs.js?id=4f7ed4069d41868f091a",
+    "/dist/js/CheckOut.js": "/dist/js/CheckOut.js?id=a55825ff0cc779c5486e",
+    "/dist/js/ContactUs.js": "/dist/js/ContactUs.js?id=46e97d4c3e0a17f41213",
+    "/dist/js/EmailVerification.js": "/dist/js/EmailVerification.js?id=e5d6f50d5a56eb47fc83",
+    "/dist/js/ForgotPassword.js": "/dist/js/ForgotPassword.js?id=56ccd480ef28b0cceedc",
+    "/dist/js/Index.js": "/dist/js/Index.js?id=388516067660de4567a6",
+    "/dist/js/Login.js": "/dist/js/Login.js?id=aeb8325f4458bae607d7",
+    "/dist/js/Market.js": "/dist/js/Market.js?id=211ec07d6d5d489023cc",
+    "/dist/js/News.js": "/dist/js/News.js?id=fe272f4dabc0aa6aecfa",
+    "/dist/js/NotFound.js": "/dist/js/NotFound.js?id=0f78a9ee1509be392af5",
+    "/dist/js/OrderSummary.js": "/dist/js/OrderSummary.js?id=07bb95d58f293abc4211",
+    "/dist/js/ReadPostFrontEnd.js": "/dist/js/ReadPostFrontEnd.js?id=a935ac07b227a28aa25b",
+    "/dist/js/Register.js": "/dist/js/Register.js?id=42ef72c7f207c183d726",
+    "/dist/js/ResetPassword.js": "/dist/js/ResetPassword.js?id=f7cbf92d99a43f9e027e",
+    "/dist/js/SocialLogin.js": "/dist/js/SocialLogin.js?id=db460ef32fbcc2c6b18a",
+    "/dist/js/vendors~[vue-apexcharts].js": "/dist/js/vendors~[vue-apexcharts].js?id=c04363ff63ce2bbcdabb"
 }

@@ -152,17 +152,15 @@
                         </div>
 
                         <!-- Single Widget Area -->
-                        <div class="single-widget-area">
-                            <!-- Title -->
+                        <!--<div class="single-widget-area">
                             <h5 class="widget-title">Price</h5>
-                            <!-- Cata List -->
                             <ul class="cata-list shop-page">
                                 <li><a href="#">Tk 0.00 - Tk 100.00</a></li>
                                 <li><a href="#">Tk 100.00 - Tk 1000.00</a></li>
                                 <li><a href="#">Tk 1000.00 - Tk 10000.00</a></li>
                                 <li><a href="#">Tk 10000.00+</a></li>
                             </ul>
-                        </div>
+                        </div>-->
                     </div>
 
                     <!-- Shop Products Area -->

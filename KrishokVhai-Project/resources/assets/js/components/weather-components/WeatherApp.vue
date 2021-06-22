@@ -200,14 +200,14 @@
 import dayjs from "dayjs";
 import {mapGetters} from "vuex";
 import LocationNameDisplay from "./LocationNameDisplay";
-import apexchart from "vue-apexcharts";
+//import apexchart from "vue-apexcharts";
 
 export default {
     name: 'weather-app',
     components: {
         LocationNameDisplay,
-        //apexchart: () => import(/*webpackChunkName: "[vue-apexcharts]"*/'vue-apexcharts')
-        apexchart,
+        apexchart: () => import(/*webpackChunkName: "[vue-apexcharts]"*/'vue-apexcharts')
+        //apexchart,
     },
     props: {
         locationData: Object,
